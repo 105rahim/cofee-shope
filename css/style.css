@@ -1,0 +1,379 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: black;
+}
+.bi-cart{
+    font-size: 2rem;
+    color: rgb(166, 255, 0);
+    padding-left: 2rem;
+    
+    
+}
+.bi-search{
+    font-size: 2rem;
+    color: rgb(166, 255, 0);
+    padding-left: 2rem;
+    margin-left: 2rem;
+   
+}
+#hero .navbar{
+    background-color: blueviolet;
+    background-attachment: fixed;
+}
+
+
+
+@media  screen and (max-width: 576px) {
+   .nav-link{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: coral;
+   }
+   .bi-search{
+    margin-left: 2rem;
+   }
+  .nav-icon{
+    text-align: center;
+  }
+  .d-flex #input{
+   padding-left: 2rem;
+  }
+  #footer ul li{
+    padding: 2px;
+}
+  
+}
+
+
+#hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.543),rgba(0, 0, 0, 0.658)), url('../image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+.navbar-brand img{
+    width: 120px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+.nav-item{
+    padding: 8px;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+   
+}
+.nav-link:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+
+
+#hero #input{
+    width: 250px;
+    height: 60px;
+    display: none;
+}
+#hero #btn{
+    height: 60px;
+    width: 100px;
+    margin-left: -70px;
+    display: none;
+}
+#hero form{
+   float: right; 
+  margin-right: 1rem;
+   margin-top: 3rem;
+   position: relative;
+   overflow: hidden;
+   display: ;
+   background-attachment: fixed;
+   
+}
+#hero h6{
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(11, 209, 244);
+    text-align: justify;
+}
+.card-item .img-fluid{
+    height: 60px;
+    width: 60px;
+}
+.card-item .img-fluid:hover{
+    box-shadow: 6px 14px 8px 5px black;
+}
+.card-item{
+    float: right;
+    margin-top: 3rem;
+    background-color: rgb(93, 237, 240);
+    margin-right: 1rem;
+    padding: 3rem;
+    display: none;
+}
+#hero .para{
+    color: white;
+    text-align: justify;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    display: none;
+}
+#hero h1{
+    color: rgb(124, 247, 16);
+    font-size: 50px;
+}
+#hero span{
+    color: rgb(10, 187, 200);
+}
+#hero h4{
+    color: rgb(158, 216, 13);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.col-md-7{
+    margin-top: 120px;
+}
+#about{
+    margin-top: 3rem;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+#about img{
+    height: 400px;
+    width: 300px;
+}
+#about h4{
+    margin-top: 3rem;
+}
+#about p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: justify;
+}
+#menu{
+    margin-top: 3rem;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+#menu .card{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    opacity: 0.4;
+    transition: 3s;
+    margin-top: 2rem;
+}
+#menu .card:hover{
+  opacity: 1.5;
+  transform: scale(1.1);
+}
+#menu .card img{
+    height: 200px;
+}
+#menu .card .card-body{
+    text-align: center;
+}
+#menu .card button{
+    width: 5rem;
+    height: 3rem;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2rem;
+   
+    transition: 2s;
+}
+#menu .card button:hover{
+    transform: scale(1.2);
+}
+#product{
+    margin-top: 3rem;
+    height: 100%;
+    background-color: black;
+    
+}
+#product .card{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-top: 2rem;
+}
+#product .card:hover{
+    box-shadow: 3px 14px 8px 5px rgb(231, 224, 224);
+}
+
+#product .card img{
+    height: 200px;
+}
+#product .card .card-body{
+    text-align: center;
+}
+#product .card .card-body button{
+    width: 4rem;
+    height: 2rem;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2rem;
+   
+    transition: 2s;
+}
+#product .card .card-body button:hover{
+    background-color: rgb(13, 1, 1);
+    
+    border: 2px solid rgb(248, 241, 241);
+}
+#review{
+    margin-top: 2rem;
+    height: 100%;
+    background-color: black;
+}
+#review .card{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-top: 2rem;
+}
+#review .card:hover{
+    box-shadow: 3px 4px 4px 8px rgb(239, 235, 235);
+}
+#review .card img{
+    height: 250px;
+    
+    
+}
+#review .card .card-body{
+    text-align: center;
+}
+#review .card .card-body button{
+    width: 120px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4rem;
+}
+#review .card .card-body button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+}
+#contact{
+    margin-top: 2rem;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+#contact p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: justify;
+}
+#contact .card{
+    background-color: yellow;
+    
+   
+}
+#contact .content{
+    margin-top: 5rem;
+}
+#contact .form-control{
+     height: 50px;
+     width: 300px;
+     
+ }
+ #contact label{
+    font-size: 30px;
+    font-weight: boold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: red;
+ }
+
+#contact button{
+     height: 40px;
+     width: 150px;
+     background-color: rgb(165, 6, 6);
+     font-size: 20px;
+     font-weight: bold;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-style: italic;
+     color: white;
+     border: none;
+     outline: none;
+     margin-top: 1rem;
+ }
+ .text{
+     margin-left: 3.5rem;
+ }
+ .icon{
+     font-size: 20px;
+     margin-right: 1rem;
+     border: 1px solid white;
+     border-radius: 3rem;
+     padding: 8px;
+     background-color: white;
+     color: crimson;
+ }
+ .icon:hover{
+     background-color: rgb(18, 158, 213);
+ }
+ #footer{
+     margin-top: 3rem;
+     height: 100%;
+     background-color: rgb(8, 80, 223);
+     color: white;
+ }
+ #footer ul{
+     margin-top: 2rem;
+     list-style-type: none;
+     display: flex;
+ }
+ #footer ul li{
+     padding: 2px;
+ }
+ #footer ul li a{
+     text-decoration: none;
+     color: white;
+     border: 1px solid white;
+ }
+ .social-link a{
+     color: white;
+ }
+ 
+  .social-link i{
+     font-size: 40px;
+     padding: 8px;
+  }
+  .social-link i:hover{
+     color: rgba(154, 247, 68, 0.354);
+  }
+  .bi-arrow-up-circle{
+     font-size: 30px;
+     font-weight: bold;
+     color: white;
+     float: right;
+  }
+
+ 
